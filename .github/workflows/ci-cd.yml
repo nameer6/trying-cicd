@@ -6,8 +6,24 @@ on:
       - main
 
 jobs:
-  lintTest:
-    name: Lint
+  SecurityCheck:
+    name: Check for Security
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for Security
+        run: |
+          echo "Running Security Checks.."
+          sleep 5s
+          echo "Running Security Checks.. 1"
+          sleep 5s
+          echo "Running Security Checks.. 2"
+          sleep 5s
+          echo "Running Security Checks.. 3"
+          sleep 5s
+
+  BuildNDeploy:
+    name: BuildNDeploy
+    needs: [SecurityCheck]
     runs-on: ubuntu-latest
     steps:
       - name: Clone Repository
@@ -19,4 +35,6 @@ jobs:
           npm install --force
           echo "Building and Deploying..."
           nohup npm run start > /dev/null 2>&1 &
+
+          
     
