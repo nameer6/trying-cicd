@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "lnextensionexecutor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LeoNatan/LNExtensionExecutor",
+      "state" : {
+        "revision" : "16b741f659e344f4569c9f9d32ef2298ef0233ff",
+        "version" : "1.2.0"
+      }
+    }
+  ],
+  "version" : 2
+}

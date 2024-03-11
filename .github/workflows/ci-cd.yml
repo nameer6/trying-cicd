@@ -1,0 +1,49 @@
+name: ci-cd
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  lintTest:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Repository
+        uses: actions/checkout@v2
+
+      - name: Install Dependencies
+        run: |
+          echo "Running Installing Dependencies ..."
+          npm install --force
+
+    
+
+  SecurityCheck:
+    name: Check for Security
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for Security
+        run: |
+          echo "Running Security Checks.."
+          sleep 5s
+          echo "Running Security Checks.. 1"
+          sleep 5s
+          echo "Running Security Checks.. 2"
+          sleep 5s
+          echo "Running Security Checks.. 3"
+          sleep 5s
+
+  Deploy:
+    name: Deployment 
+    runs-on: ubuntu-latest
+    needs: [lintTest, SecurityCheck]
+    steps:
+      - name: Clone Repository
+        uses: actions/checkout@v2
+
+      - name: Build and Deploy
+        run: |
+          echo "Building and Deploying..."
+          npm run start

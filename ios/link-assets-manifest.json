@@ -1,0 +1,57 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/HelveticaNeue Bold.ttf",
+      "sha1": "4df1c65ace6cb5dfa38ef3f2b59e89ab6d08ada8"
+    },
+    {
+      "path": "assets/fonts/HelveticaNeue-Medium.otf",
+      "sha1": "9fcc81b562894d3cbf6b72a0d8d0412885e89df5"
+    },
+    {
+      "path": "assets/fonts/SF-Pro-Rounded-Bold.ttf",
+      "sha1": "39772be6589e2e622e384a58cd16f80532699d9e"
+    },
+    {
+      "path": "assets/fonts/SF-Pro-Rounded-Heavy.otf",
+      "sha1": "85e8f7b4b33e7f5b6065947ae4a7e885cdcc8d75"
+    },
+    {
+      "path": "assets/fonts/SF-Pro-Rounded-Medium.otf",
+      "sha1": "889faa176363f8b8e629aeaacdf85c07d1312d8d"
+    },
+    {
+      "path": "assets/fonts/SF-Pro-Rounded-Regular.otf",
+      "sha1": "ab2491a7db1d0a1792e50aefd4eea4bc46215742"
+    },
+    {
+      "path": "assets/fonts/SF-Pro-Rounded-Semibold.otf",
+      "sha1": "00fd8c58ca31cc2794b221405884a1601f50558f"
+    },
+    {
+      "path": "assets/fonts/SF-Pro-Text-Bold.otf",
+      "sha1": "ec517cf509801fc5df33d5cac9a37524d422fc1f"
+    },
+    {
+      "path": "assets/fonts/SF-Pro-Text-Heavy.otf",
+      "sha1": "330cd932b6dc96b071586409fe36754d5d829955"
+    },
+    {
+      "path": "assets/fonts/SF-Pro-Text-Medium.otf",
+      "sha1": "35b05b13f0c4a63cfc7d23b60c728c5d24cf14fd"
+    },
+    {
+      "path": "assets/fonts/SF-Pro-Text-Regular.otf",
+      "sha1": "85b4043974a2a3be5afbcc9ea2becab072d2cd8f"
+    },
+    {
+      "path": "assets/fonts/SF-Pro-Text-Semibold.otf",
+      "sha1": "d8c839390af4265e252fe445b06428c5baeec70d"
+    },
+    {
+      "path": "assets/fonts/SFProRounded-Medium.ttf",
+      "sha1": "e6349850fc4daa30158a20a8e55a476d7af2bcd9"
+    }
+  ]
+}
