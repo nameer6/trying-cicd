@@ -46,4 +46,3 @@ jobs:
       - name: Build and Deploy
         run: |
           echo "Building and Deploying..."
-          npm run start
